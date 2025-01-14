@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="./kk.png">
+    <title>Kings Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .bord {
+            /* border: 2px solid red; */
+        }
+
+        .backgound {
+            background-color: brown;
+            border-radius: 5px;
+            color: white;
+            padding: 10px;
+            margin-right: 300px;
+            margin-left: 100px;
+        }
+
+        .img {
+            height: 500px;
+            width: 600px;
+            border-start-start-radius: 200px;
+            border-end-end-radius: 200px;
+            padding: 70px;
+        }
+
+        .med {
+            font-size: 30px;
+        }
+
+        .med:hover {
+            color: rgb(223, 24, 24);
+        }
+
+        .pop {
+            align-items: center;
+            padding: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .recent {
+            margin-bottom: 70px;
+            margin-top: 60px;
+            font-weight: 700;
+            font-size: 40px;
+            list-style: none;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .recent::before {
+            left: 40%;
+            content: "";
+            position: absolute;
+            bottom: 0;
+            border: 1.5px solid #000;
+            width: 20%;
+        }
+
+
+        .down {
+            color: white;
+            font-size: 30px;
+            padding: 10px;
+
+
+        }
+
+        .down:hover {
+            color: red;
+
+        }
+
+        .homenav {
+            color: white;
+            font-weight: bold;
+            font-size: 23px;
+
+        }
+
+        .homenav:hover {
+            /* background-color: rgb(246, 182, 64);
+    border-radius: 5px; */
+            color: black;
+        }
+
+        .icon {
+            font-size: 50px;
+            border: solid brown;
+            border-radius: 60px;
+            padding: 30px;
+            color: darkslategray;
+        }
+
+        .nav {
+            background-color: #e45563;
+            /* margin-left: 90px;
+    margin-right: 90px; */
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <br>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top p-3">
+        <div class="container-fluid nav">
+            <a class="navbar-brand homenav" href="home.html" style="font-size: 40px;"> Kings-Tokas</a>
+            <button class="navbar-toggler" style="color: white !important; background-color: white !important;"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"
+                    style="color: white !important; background-color: white !important;"></span>
+            </button>
+            <div class="collapse navbar-collapse down" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link homenav" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  homenav" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  homenav" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  homenav" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <br><br><br>
+    <div class="container-fluid" style="background-color: rgb(237, 225, 201);">
+        <div class="row">
+            <div class="col-12 col-lg-12 bord">
+                <h2 class="text-center"
+                    style="margin-bottom: 10px; margin-top: 60px; text-decoration: underline; font-size: 40px;">Contact
+                </h2>
+                <div style="padding-left: 270px; padding-right: 270px;">
+
+                    <div>
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+
+                    <div>
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+
+                    <div>
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <br>
+                    <button
+                        style="background-color: #dc3545; color: white; width: 100%; border-radius: 20px; border-color: #dc3545;">Send</button>
+                    <br><br><b><br><br></b>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row" style="background-color: black; padding-top: 30px;">
+        <div class="row text-center popo">
+            <div class="col-md-12">
+                <div>
+                    <i class="fa-brands fa-facebook down"></i>
+                    <i class="fa-brands fa-twitter down"></i>
+                    <i class="fa-brands fa-github down"></i>
+                    <i class="fa-brands fa-stack-overflow down"></i>
+                    <i class="fa-solid fa-landmark down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 bord" style="padding-top: 10px;">
+            <p style="text-align: center; color: white; padding-top: 10px;">© 2024 Kings Tochukwu | All rights reserved.
+            </p>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
